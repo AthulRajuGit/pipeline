@@ -11,6 +11,7 @@ public class Hello1Application {
 	public static void main(String[] args) {
 		logger.info("Application Started");
 		logger.info("second time");
+		logger.info("third time");
 		SpringApplication.run(Hello1Application.class, args);
 	}
 
