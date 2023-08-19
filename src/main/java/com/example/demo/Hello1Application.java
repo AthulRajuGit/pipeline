@@ -10,6 +10,7 @@ public class Hello1Application {
   static final Logger logger=LoggerFactory.getLogger(Hello1Application.class);
 	public static void main(String[] args) {
 		logger.info("Application Started");
+		logger.info("second time");
 		SpringApplication.run(Hello1Application.class, args);
 	}
 
