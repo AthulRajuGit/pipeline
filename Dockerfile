@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/hello1.jar hello1.jar
-ENTRYPOINT [ "java","-jar","/hello1.jar" ]
+ADD target/hello-1-0.0.1-SNAPSHOT.jar hello-1-0.0.1-SNAPSHOT.jar
+ENTRYPOINT [ "java","-jar","/hello-1-0.0.1-SNAPSHOT.jar" ]
